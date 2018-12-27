@@ -4,3 +4,7 @@
 The pattern of the SYnbol Generation used is :-
 #### Batch + Semester + Term + 3 random digits
 
+The value of the variable are as
+===========================================
+ Batch : take the last 2 digits from the students batch!!
+
