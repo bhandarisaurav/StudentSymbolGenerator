@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DWIT Symbol No Generator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="assets/images/icons/favicon.ico"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/util.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!--===============================================================================================-->
+
+</head>
+<body background="assets/1.jpg">
+
+
+<div class="container-contact100 container" style="max-width: 82%">
+
+    <div class="wrap-contact100">
+        <button class="contact100-btn-hide">
+            <i class="fa fa-close" aria-hidden="true"></i>
+        </button>
+
+        <form class="contact100-form validate-form" method="post" action="generateSybmol.php">
+				<span class="contact100-form-title">
+					DWIT Symbol Number Generator
+				</span>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Batch is required">
+                <span class="label-input100">Enter Batch</span>
+                <input class="input100" type="number" name="batch" placeholder="Enter Batch" required="required">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate = "Semester is Required" >
+                <span class="label-input100">Semester</span>
+                <select class="input100" name="semester" required="required" title="">
+                    <option value="" disabled selected>Select Semester</option>
+                    <option value="01">1st Semester</option>
+                    <option value="02">2nd Semester</option>
+                    <option value="03">3rd Semester</option>
+                    <option value="04">4th Semester</option>
+                    <option value="05">5th Semester</option>
+                    <option value="06">6th Semester</option>
+                    <option value="07">7th Semester</option>
+                    <option value="08">8th Semester</option>
+                </select>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate = "Term is Required">
+                <span class="label-input100">Term</span>
+                <select class="input100" name="term" required="required"  title="">
+                    <option value="" disabled selected>Select Term</option>
+                    <option value="01">Mid Term</option>
+                    <option value="02">Final Term</option>
+                </select>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Number of Students is required">
+                <span class="label-input100">Number of Students</span>
+                <input class="input100" type="number" name="nos" placeholder="Number of Students" max="999" required="required">
+                <span class="focus-input100"></span>
+            </div>
+
+
+            <div class="container-contact100-form-btn">
+                <button class="contact100-form-btn" name="submit">
+						<span>
+							Generate Now
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+                </button>
+            </div>
+        </form>
+
+        <span class="contact100-more">
+				Developed By <b><a style="color: #010810;" href="http://facebook.com/sauravbh1">Saurav Bhandari</a></b>: <span class="contact100-more-highlight"> +977-9843500114</span>
+			</span>
+    </div>
+</div>
+
+
+
+<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+<script src="assets/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="assets/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="assets/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+<script src="assets/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+<script src="assets/js/main.js"></script>
+
+<script>
+    $('.wrap-contact100').fadeIn(400);
+</script>
+</body>
+</html>
