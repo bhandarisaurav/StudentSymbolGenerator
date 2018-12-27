@@ -1,6 +1,6 @@
 # StudentSymbolGenerator
 
-## DEMO https://symbolgenerator.herokuapp.com 
+### DEMO https://symbolgenerator.herokuapp.com 
 
 ##### A simple web application made for Deerwalk Institute of Technology to generate symbol number of students for their Internal Exams.
 
